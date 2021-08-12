@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+The Covid World Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The webpage shows the statistics of current covid-19 cases around the world using graphs and maps.
+https://tanyagupta1901.github.io/The-World-Covid-Tracker/
 
-## Available Scripts
+The data is fetched from diseases.sh api
+ It is built using react js frontend framework.
+ It also uses charts.js,map.js libraries
+ It implements theme change also.
+ 
+ The initial statistics shown are of the world and user has the option to select a country to see the statistics.
+ The various sections are:
+ The header cards: they display numeric statistics uptill current date.
+ The map : the size red dots on the map show the severity of covid-19 in that reigon.
+ The graph : the graph displays the recovered,dead and active cases in the previous month.
+ The tables : the tables show the today found cases and death of various countries sorted in descending order.
+ 
+ ![image](https://user-images.githubusercontent.com/63922082/129250278-d5cb5482-b6f8-484d-8d27-5c41f1fbe7c8.png)
+ ![image](https://user-images.githubusercontent.com/63922082/129250440-130adc83-c1c0-445c-9fd5-19a041842b16.png)
+ ![image](https://user-images.githubusercontent.com/63922082/129250503-d798d670-e7c6-4224-b820-297622a08cc7.png)
+![image](https://user-images.githubusercontent.com/63922082/129250232-31ab9f82-8f6f-4a09-a033-a4129ac68dc3.png)
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
